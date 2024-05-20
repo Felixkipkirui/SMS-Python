@@ -16,11 +16,11 @@ def send_sms(api_key, email, sender_id, message, phone):
     return response.json()
 
 # Example usage:
-api_key = "UzdYQ09ZRE06ZmtyczlyaTE="
-email = "kipkiruifelixlangat04@gmail.com"
+api_key = ""
+email = ""
 sender_id = "UMS_SMS"
 message = "Hello Felix Kipkirui Langat"
-phone = "0725625154"
+phone = ""
 
 response = send_sms(api_key, email, sender_id, message, phone)
 print(response)
